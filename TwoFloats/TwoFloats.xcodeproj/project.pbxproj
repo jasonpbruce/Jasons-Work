@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96391AC414C24CAB0074742A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 96391AC314C24CAB0074742A /* main.c */; };
+		96391AC614C24CAB0074742A /* TwoFloats.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96391AC514C24CAB0074742A /* TwoFloats.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96391ABD14C24CAB0074742A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				96391AC614C24CAB0074742A /* TwoFloats.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		96391ABF14C24CAB0074742A /* TwoFloats */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwoFloats; sourceTree = BUILT_PRODUCTS_DIR; };
+		96391AC314C24CAB0074742A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		96391AC514C24CAB0074742A /* TwoFloats.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TwoFloats.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96391ABC14C24CAB0074742A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96391AB414C24CAB0074742A = {
+			isa = PBXGroup;
+			children = (
+				96391AC214C24CAB0074742A /* TwoFloats */,
+				96391AC014C24CAB0074742A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96391AC014C24CAB0074742A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96391ABF14C24CAB0074742A /* TwoFloats */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96391AC214C24CAB0074742A /* TwoFloats */ = {
+			isa = PBXGroup;
+			children = (
+				96391AC314C24CAB0074742A /* main.c */,
+				96391AC514C24CAB0074742A /* TwoFloats.1 */,
+			);
+			path = TwoFloats;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96391ABE14C24CAB0074742A /* TwoFloats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96391AC914C24CAB0074742A /* Build configuration list for PBXNativeTarget "TwoFloats" */;
+			buildPhases = (
+				96391ABB14C24CAB0074742A /* Sources */,
+				96391ABC14C24CAB0074742A /* Frameworks */,
+				96391ABD14C24CAB0074742A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoFloats;
+			productName = TwoFloats;
+			productReference = 96391ABF14C24CAB0074742A /* TwoFloats */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96391AB614C24CAB0074742A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 96391AB914C24CAB0074742A /* Build configuration list for PBXProject "TwoFloats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96391AB414C24CAB0074742A;
+			productRefGroup = 96391AC014C24CAB0074742A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96391ABE14C24CAB0074742A /* TwoFloats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96391ABB14C24CAB0074742A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96391AC414C24CAB0074742A /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96391AC714C24CAB0074742A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96391AC814C24CAB0074742A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96391ACA14C24CAB0074742A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96391ACB14C24CAB0074742A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96391AB914C24CAB0074742A /* Build configuration list for PBXProject "TwoFloats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96391AC714C24CAB0074742A /* Debug */,
+				96391AC814C24CAB0074742A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96391AC914C24CAB0074742A /* Build configuration list for PBXNativeTarget "TwoFloats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96391ACA14C24CAB0074742A /* Debug */,
+				96391ACB14C24CAB0074742A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96391AB614C24CAB0074742A /* Project object */;
+}
