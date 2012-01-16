@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 void congratulateStudent (char *student, char *course, int numDays)
 {
     
