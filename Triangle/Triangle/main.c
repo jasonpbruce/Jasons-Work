@@ -10,7 +10,12 @@
 
 // Challenge Two - Triangle
 
-float remaingAngle;
+float angleC(float remainingAngle)
+{
+    float lastAngle = -180;
+    return lastAngle;
+    
+}
 
 int main (int argc, const char * argv[])
 {
@@ -22,4 +27,3 @@ int main (int argc, const char * argv[])
     
     return 0;
 }
-
