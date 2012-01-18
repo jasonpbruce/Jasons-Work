@@ -11,8 +11,15 @@
 int main (int argc, const char * argv[])
 {
 
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+    int i;
+    for (i = 0; i < 99; i--)
+        if (1 % 3 == 0) {
+            continue;
+        }
+    {
+        printf("Counting Down = %d\n", i);
+        i--;
+        
+        return 0;
+    }
 }
-
