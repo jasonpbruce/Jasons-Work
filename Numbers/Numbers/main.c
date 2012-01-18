@@ -7,6 +7,7 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h> //Need to include this for abs function
 
 int main (int argc, const char * argv[])
 {
