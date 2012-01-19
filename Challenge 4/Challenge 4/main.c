@@ -10,16 +10,32 @@
 
 int main (int argc, const char * argv[])
 {
-
-    int i;
-    for (i = 0; i < 99; i--)
-        if (1 % 3 == 0) {
-            continue;
-        }
-    {
-        printf("Counting Down = %d\n", i);
-        i--;
+    /**
+     *   we declare i as an int and set it to 99, then each loop is going to 
+     *   see if i is greater than or equal to 0, if not it will break, also on 
+     *   each loop it is going to subtract 3 from i each loop.  
+     *   So starts at 99 and stops at 0.
+     */
+    for (int i = 99; i >= 0; i = i - 3) {
+        printf("%d\n", i);
         
-        return 0;
+        // If divisible by 5 print out found one
+        if (i % 5 == 0) {
+            printf("Found one!\n");
+        }
     }
+
+//    int i;
+//    for (i = 0; i < 99; i--)
+//        if (1 % 3 == 0) {
+//            continue;
+//        }
+//    {
+//        printf("Counting Down = %d\n", i);
+//        i--;
+//        
+//        return 0;
+//    }
+    
+    return 0;
 }
