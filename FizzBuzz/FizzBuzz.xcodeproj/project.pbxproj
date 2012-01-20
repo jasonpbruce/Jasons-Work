@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		962A5ED114C8D99B0052FADA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 962A5ED014C8D99B0052FADA /* main.c */; };
+		962A5ED314C8D99B0052FADA /* FizzBuzz.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 962A5ED214C8D99B0052FADA /* FizzBuzz.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		962A5ECA14C8D99A0052FADA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				962A5ED314C8D99B0052FADA /* FizzBuzz.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		962A5ECC14C8D99B0052FADA /* FizzBuzz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FizzBuzz; sourceTree = BUILT_PRODUCTS_DIR; };
+		962A5ED014C8D99B0052FADA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		962A5ED214C8D99B0052FADA /* FizzBuzz.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FizzBuzz.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		962A5EC914C8D99A0052FADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		962A5EC114C8D99A0052FADA = {
+			isa = PBXGroup;
+			children = (
+				962A5ECF14C8D99B0052FADA /* FizzBuzz */,
+				962A5ECD14C8D99B0052FADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		962A5ECD14C8D99B0052FADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				962A5ECC14C8D99B0052FADA /* FizzBuzz */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		962A5ECF14C8D99B0052FADA /* FizzBuzz */ = {
+			isa = PBXGroup;
+			children = (
+				962A5ED014C8D99B0052FADA /* main.c */,
+				962A5ED214C8D99B0052FADA /* FizzBuzz.1 */,
+			);
+			path = FizzBuzz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		962A5ECB14C8D99A0052FADA /* FizzBuzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962A5ED614C8D99B0052FADA /* Build configuration list for PBXNativeTarget "FizzBuzz" */;
+			buildPhases = (
+				962A5EC814C8D99A0052FADA /* Sources */,
+				962A5EC914C8D99A0052FADA /* Frameworks */,
+				962A5ECA14C8D99A0052FADA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FizzBuzz;
+			productName = FizzBuzz;
+			productReference = 962A5ECC14C8D99B0052FADA /* FizzBuzz */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		962A5EC314C8D99A0052FADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 962A5EC614C8D99A0052FADA /* Build configuration list for PBXProject "FizzBuzz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 962A5EC114C8D99A0052FADA;
+			productRefGroup = 962A5ECD14C8D99B0052FADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				962A5ECB14C8D99A0052FADA /* FizzBuzz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962A5EC814C8D99A0052FADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962A5ED114C8D99B0052FADA /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		962A5ED414C8D99B0052FADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		962A5ED514C8D99B0052FADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		962A5ED714C8D99B0052FADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		962A5ED814C8D99B0052FADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		962A5EC614C8D99A0052FADA /* Build configuration list for PBXProject "FizzBuzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962A5ED414C8D99B0052FADA /* Debug */,
+				962A5ED514C8D99B0052FADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962A5ED614C8D99B0052FADA /* Build configuration list for PBXNativeTarget "FizzBuzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962A5ED714C8D99B0052FADA /* Debug */,
+				962A5ED814C8D99B0052FADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 962A5EC314C8D99A0052FADA /* Project object */;
+}
