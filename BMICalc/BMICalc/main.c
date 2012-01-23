@@ -11,18 +11,18 @@
 // Here is the declaration of the type Person
 
 typedef struct {
-    float heightInMeters;
-    int weightInKilos;
+    float heightInFeet;
+    int weightInPounds;
 } Person;
 
 float bodyMassIndex(Person p) {
-    return p.weightInKilos / (p.heightInMeters * p.heightInMeters);
+    return p.weightInPounds / (p.heightInFeet * p.heightInFeet);
 }
 
 int main(int argc, const char * argv[]) {
     Person person;
-    person.weightInKilos = 96;
-    person.heightInMeters = 1.8;
+    person.weightInPounds = 190;
+    person.heightInFeet = 6.1;
     float bmi = bodyMassIndex(person);
     printf("person has a BMI of %.2f\n", bmi);
     
